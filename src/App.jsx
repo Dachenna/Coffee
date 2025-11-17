@@ -1,12 +1,12 @@
 import React from 'react'
-import { BrowserRouter } from 'react-router-dom'
-import Layout from './Layout'
+import Hero from './Components/Hero'
+
 
 const App = () => {
   return (
-    <BrowserRouter>
-      <Layout />
-    </BrowserRouter>
+   <div className='overflow-x-hidden'>
+      <Hero />
+   </div>
   )
 }
 
