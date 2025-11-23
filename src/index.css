@@ -1,3 +1,9 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+#banner{
+    /* remove hard background-image here so we can use an <img> for better responsiveness */
+    overflow: hidden;
+    @apply relative w-full min-h-screen;
+}

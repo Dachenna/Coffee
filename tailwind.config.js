@@ -18,6 +18,9 @@ export default {
         center: true,
         padding: '1rem',
         sm: "2rem",
+      },
+      maskImage: {
+        'fade-bottom': 'linear-gradient(to bottom, black, transparent)',
       }
     },
   },
